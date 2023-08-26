@@ -1,2 +1,5 @@
 /.hugo_build.lock
 /.idea/workspace.xml
+/.idea/me.iml
+/.idea/vcs.xml
+/public
