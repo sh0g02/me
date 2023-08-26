@@ -1,4 +1,45 @@
 baseURL = 'https://me-3l1.pages.dev/'
 languageCode = 'ja'
+defaultContentLanguage = 'ja'
+hasCJKLanguage = true
+summaryLength = 140
 title = 'WIP: 人生'
 theme = 'PaperMod'
+enableRobotsTXT = true
+
+[minify]
+minifyOutput = true
+
+[params]
+author = "Shogo Takasaki"
+description = "人生"
+dateFormat = "2006/01/02"
+#showCodeCopyButtons = true
+#showPostNavLinks = true
+#showRssButtonInSectionTermList = true
+#showShareButtons = false
+#shareButtons = []
+
+[params.homeInfoParams]
+title = "Shogo Takasaki"
+#content = ""
+
+[[params.socialIcons]]
+name = "GitHub"
+url = "https://github.com/sh0g02"
+
+[[params.socialIcons]]
+name = "Twitter"
+url = "https://twitter.com/shogo_tksk"
+
+[[params.socialIcons]]
+name = "Threads"
+url = "https://www.threads.net/@sh0g0.tksk"
+
+[[params.socialIcons]]
+name = "Instagram"
+url = "https://www.instagram.com/sh0g0.tksk"
+
+[[params.socialIcons]]
+name = "Bluesky"
+url = "https://bsky.app/profile/shogo.bsky.social"
